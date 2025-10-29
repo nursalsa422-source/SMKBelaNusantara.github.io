@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontak</title>
+    
+    <style>
+        body {
+            font-family: 'poppins', sans-serif;
+            background: linear-gradient(135deg, #0057b7, #00b4d8);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2795ae;
+            color: goldenrod;
+            padding: 20px;
+            text-align: center;
+        }
+        header span {
+            color: white;
+        }
+        nav {
+            background: rgba(0,0,0,0.05);
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #2795ae;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            width: 85%;
+            margin: 20px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #aaa;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #2795ae;
+            color: white;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #2795ae;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            opacity: 0.9;
+        }
+        footer {
+            background-color: #2795ae;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        footer span{
+            color: goldenrod;
+        }
+        .two-column {
+            display: flex;
+            gap: 20px;
+        }
+        .two-column > div {
+            flex: 1;
+        }
+    </style>
+    
+</head>
+<body>
+<header>
+    <h1>Hubungi Kami</h1>
+    <p><span>Hubungi Smk Bela Nusantara untuk informasi lebih lanjut!</span></p>
+</header>
+<section>
+    <form>
+        <label>Nama Lengkap:</label>
+        <input type="text" name="nama">
+        <label>Email:</label>
+        <input type="email" name="email">
+        <label>Pesan:</label>
+        <textarea name="pesan"></textarea>
+        <button type="submit">Kirim</button>
+    </form>
+</section>
+<div class="info">
+      <h2>Informasi Kontak</h2>
+      <p><strong>Alamat:</strong> Jl. Pendidikan No. 45, Tangerang Selatan</p>
+      <p><strong>Telepon:</strong> (021) 888 1234</p>
+      <p><strong>Email:</strong> info@smkbelanusa.sch.id</p>
+      <p><strong>Jam Operasional:</strong> Senin - Jumat, 07.00 - 16.00 WIB</p>
+</div>
+<footer>&copy; 2025 <span>Smk Bela Nusantara</span> | Semua Hak Dilindungi</footer>
+<footer><a href="index.html" style="color:white;">Kembali</a></footer>
+</body>
+</html>
